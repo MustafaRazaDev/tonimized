@@ -1,0 +1,821 @@
+@font-face {
+    font-family: relway;
+    src: url(raleway.bold.ttf);
+}
+body{
+    font-family:relway;
+    margin:0%;
+    overflow-x: hidden;
+}
+#homebox1 {
+    background: linear-gradient(228.48deg,#f2ec3b 20.3%,#80f9c0 96.91%);
+    backdrop-filter: blur(4px);
+    height: 25vw;
+    width: 100%;
+    margin-top: -2%;
+}
+#navigation {
+    height: 6vw;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+#logo {
+    position: relative;
+    top: 0.5vw;
+    left: 2%;
+    cursor: pointer;
+    height: 2.2vw;
+    width: auto;
+    margin: 1.3vw 1.5%;
+}
+#Homebutt {
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 17%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Homebutt:hover{
+    color:gold;
+}
+#Gallerybutt {
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 21%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Gallerybutt:hover{
+    color: gold;
+}
+#Artistsbutt {
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 25%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Artistsbutt:hover{
+    color: gold;
+}
+#Faqbutt {
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 29%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Faqbutt:hover{
+    color: gold;
+}
+#homebox2 {
+    padding-top: 38%;
+    padding-left: 15%;
+}
+.headIcon {
+    cursor: pointer;
+    width: 4%;
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    width: 1.8%;
+}
+.item {
+    color: #fff;
+    padding: 0.1% 0.2%;
+    font-weight: lighter;
+    border-radius: 0.5vw;
+    background-color: red;
+    position: absolute;
+    left: 76.6%;
+    top: 30%;
+    font-size: 0.6vw;
+    
+}
+.start {
+    border: none;
+    color: #fff;
+    font-size: .9vw;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    background: linear-gradient(180deg
+    ,#f7de03 -67.82%,#ffa620);
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+.start:hover {
+    border: none;
+    color: #fff;
+    font-size: .9vw;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    background: linear-gradient(180deg,#f7de03 -67.82%,#ffa620);
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+.leftCircle {
+    position: absolute;
+    left: 0;
+    top: 24%;
+    width: 14%;
+}
+.rigthCircle {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 10%;
+}
+.faqsHeaderBox{
+    text-align: center;
+}
+.policyHeading{
+    padding-top: 9%;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.policyHeading2{
+    font-size: 1.4vw;
+}
+.faqsDisc{
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.seachQuesInput{
+    padding: 0.5%;
+    font-size: 1vw;
+    font-weight: bolder;
+    margin-left: -10%;
+}
+.searchFaqsBut{
+    background: linear-gradient(180deg,#9419df,#4b19da);
+    border: none;
+    color: #fff;
+    padding: 0.7% 4.5% 0.7% 4.5%;
+    border-radius: 0.3vw;
+    position: absolute;
+    left: 64%;
+    font-size: 0.8vw;
+}
+.secmaindiv{
+    height: 60VW;
+    width: 100%;
+}
+.inputext{
+    position: absolute;
+    left: 15%;
+    top: 140%;
+}
+.check01{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr{
+    width: 420%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 170%;
+}
+.checkpara{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww{
+    width: 4%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 415%; 
+    top: 60%;
+    cursor: pointer;
+}
+input, ul.submenu {
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu {
+    display: block;
+  }
+.inputext2{
+    position: absolute;
+    left: 15%;
+    top: 160%;
+}
+.check02{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr2{
+    width: 540%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara2{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww2{
+    width: 5%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 535%; 
+    top: 60%;
+    cursor: pointer;
+}
+input, ul.submenu2 {
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu2 {
+    display: block;
+  }
+  .inputext3{
+    position: absolute;
+    left: 15%;
+    top: 180%;
+}
+.check03{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr3{
+    width: 374%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 240%;
+}
+.checkpara3{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww3{
+    width: 3.5%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 369.8%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu3 {
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu3 {
+    display: block;
+  }  
+  .inputext4{
+    position: absolute;
+    left: 15%;
+    top: 206%;
+}
+.check04{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr4{
+    width: 387%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara4{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww4{
+    width: 3.7%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 382%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu4 {
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu4{
+    display: block;
+  }  
+  .inputext5{
+    position: absolute;
+    left: 15%;
+    top: 230%;
+}
+.check05{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr5{
+    width: 350%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara5{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww5{
+    width: 3.7%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 342%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu5{
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu5{
+    display: block;
+  }  
+  .inputext6{
+    position: absolute;
+    left: 15%;
+    top: 254%;
+}
+.check06{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr6{
+    width: 396%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara6{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww6{
+    width: 4%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 383%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu6{
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu6{
+    display: block;
+  }  
+  .inputext7{
+    position: absolute;
+    left: 15%;
+    top: 274%;
+}
+.check07{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr7{
+    width: 620%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara7{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww7{
+    width: 5.9%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 599%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu7{
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu7{
+    display: block;
+  }  
+  .inputext8{
+    position: absolute;
+    left: 15%;
+    top: 294%;
+}
+.check08{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr8{
+    width: 520%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara8{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww8{
+    width: 5.1%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 505%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu8{
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu8{
+    display: block;
+  }  
+  .inputext9{
+    position: absolute;
+    left: 15%;
+    top: 317%;
+}
+.check09{
+    display: none;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.inputhr9{
+    width: 274%;
+    border-bottom: 1%;
+    position: absolute;
+    top: 180%;
+}
+.checkpara9{
+    position: absolute;
+    left: -1%; 
+    top: 46%;
+    width: 500%;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.checkaroww9{
+    width: 3%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 266%; 
+    top: 91%;
+    cursor: pointer;
+}
+input, ul.submenu9{
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  input:checked~ul.submenu9{
+    display: block;
+  }  
+  .plusTable, .plusTable1 {
+    width: 1rem;
+    object-fit: contain;
+    position: absolute;
+}
+.plusTable {
+    top: 400%;
+    left: 30%;
+}
+.plusTable1 {
+    top: 9%;
+    z-index: 3;
+    left: 34%;
+    top: 390%;
+}
+.plusTable, .plusTable1 {
+    width: 1%;
+    object-fit: contain;
+    position: absolute;
+    
+}
+.centerTable {
+    top: 371%;
+    left: 30%;
+    width: 10vw;
+    position: absolute;
+}
+.faqsPaint {
+    left: 76%;
+    z-index: 3;
+    width: 20%;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 390%;
+}
+.faqsCenterTable1 {
+    left: 68%;
+    width: 30vw;
+    position: absolute;
+    top: 390%;
+}
+.footerContaine{
+    background: #242729;
+    width: 100%;
+    height: 20vw;
+    z-index: 2;
+    border-radius: 2.5vw;
+    margin:0%;
+    position: absolute;
+    top: 460%;
+    
+}
+.footLogo{
+       position: absolute;
+       left: 8%;
+       margin-top:3%;
+       width: 15%;
+}
+.social{
+   
+}
+.facebookimg{
+    position: absolute;
+    left: 8%;
+    margin-top:7%;
+    font-size: 3vw;
+    cursor: pointer;
+    width: 3%;
+}
+.instaimg{
+    position: absolute;
+    left: 12%;
+    margin-top:7%;
+    font-size: 3vw;
+    cursor: pointer;
+    width: 3%;
+}
+.footOption1 {
+    position: absolute;
+    left: 40%;
+    margin-top: 3.2%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.footOption1:hover{
+    position: absolute;
+    left: 40%;
+    margin-top: 3.2%;
+    color:gold;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.footOption2{
+    position: absolute;
+    left: 40%;
+    margin-top: 5.5%;
+    cursor: pointer;
+    font-size: 1vw;
+    color: #f0fff4;
+    display:block;
+}
+.footOption2:hover{
+    position: absolute;
+    left: 40%;
+    margin-top: 5.5%;
+    cursor: pointer;
+    font-size: 1vw;
+    color: gold;
+    display:block;
+}
+.footOption3{
+    position: absolute;
+    left: 40%;
+    margin-top: 7.5%;
+    cursor: pointer;
+    font-size: 1.4vw;
+    color: gold;
+    display: block;
+}
+
+.footOption4{
+    position: absolute;
+    left: 40%;
+    margin-top: 9.5%;
+    cursor: pointer;
+    font-size: 1vw;
+    color: #f0fff4;
+    display: block;
+}
+.footOption4:hover{
+    position: absolute;
+    left: 40%;
+    margin-top: 9.5%;
+    cursor: pointer;
+    font-size: 1vw;
+    color: gold;
+    display:block;
+}
+.footOption5{
+    cursor: pointer;
+    font-size: 1vw;
+    color: #f0fff4;
+    position: absolute;
+    left: 65%;
+    margin-top: 3.2%;
+}
+.footDetail{
+    font-size: 1vw;
+    color: #a4a4a4;
+    text-align: justify;
+    position: absolute;
+    left: 65%;
+    margin-top: 5.2%;
+}
+.footInput {
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 61, 62);
+    font-size: 0.9vw;
+    position: absolute;
+    left: 65%;
+    margin-top: 9.2%;
+    padding: 0.4%;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 0 4px 10px rgb(47 47 47 / 25%);
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/07/22/53/paper-planes-1081560_1280.png");
+    background-repeat: no-repeat;
+    background-size:7%;
+    background-position: right;
+    
+}
+.navbarpara{
+    margin: 18% 0% 0% 4%;
+    z-index: 3;
+    color: #a4a4a4;
+    font-size: 0.8vw;
+    font-weight: bolder;
+}
+.navbarpara:hover{
+    margin: 18% 0% 0% 4%;
+    color: white;
+    font-size: 0.8vw;
+    font-weight: bolder;
+}
+.footerCard{
+  position: absolute;
+  left: 36%;
+  top: 17vw;
+ width: 10%;
+}
+.tos{
+    margin: -1% 0% 0% 60%;
+    color: #a4a4a4;
+    font-size: 0.8vw;
+    font-weight: bolder;
+}
+.tos:hover{
+    margin: -1% 0% 0% 60%;
+    color:#fff;
+    font-size: 0.8vw;
+    font-weight: bolder;
+}
+.privacytext{
+    margin: -0.8% 0% 0% 80%;
+    color: #a4a4a4;
+    font-size: 0.8vw;
+    font-weight: bolder;
+}
+.privacytext:hover{
+    margin: -0.8% 0% 0% 80%;
+    color: #fff;
+    font-size: 0.8vw;
+    font-weight: bolder;
+}
